@@ -25,16 +25,20 @@ function Navbar() {
 
 {/*center in the navbar - logo */}
             <div className="center flex-1 text-center mobile:ml-6">
-                <div className="logo font-bold text-lg">Winter Kings</div>
+                <div className="logo font-bold text-lg">Summer Kings</div>
             </div>
 
 {/*right side of the navbar*/}
             <div className="right flex flex-1 items-center justify-end mobile:justify-center mobile:flex-[2]">
                 <div className={style}>Register </div>
                 <div className={style}>Sign In</div>
+                <div className={style}>
                 <Badge badgeContent={2} color="primary">
                         <AddShoppingCartIcon/>
                 </Badge>
+
+                </div>
+                
                     
             </div>
 
