@@ -14,14 +14,14 @@ const Slider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   const prevSlide = () => {
-    if (activeSlide === 0) {
+    if (activeSlide === 0) { //if the active slide is 1 slide
       setActiveSlide(slides.length - 1);
     } else {
       setActiveSlide(activeSlide - 1);
     }
   };
   const nextSlide = () => {
-    if (activeSlide === slides.length - 1) {
+    if (activeSlide === slides.length - 1) { // if this is in slide 1, go back to slide main slide
       setActiveSlide(0);
     } else {
       setActiveSlide(activeSlide + 1);
