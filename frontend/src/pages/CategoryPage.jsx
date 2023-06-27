@@ -1,8 +1,8 @@
 import React from 'react';
 import Announce from '../components/Announce';
-//import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-//import NewsLetter from '../components/NewsLetter';
+import NewsLetter from '../components/Newsletter';
 import Products from '../components/Products';
 
 const CategoryPage = () => {
