@@ -9,7 +9,7 @@ function Newsletter() {
       <h1 className='text-[50px] font-bold'>NEWSLETTER</h1>
 
       <h2 className='text-[30px] mt-2 '>
-        Always get in touch with us
+        Always get in touch with us for offers
       </h2>
 
       <div className='flex mt-[3rem] items-center 
@@ -17,9 +17,9 @@ function Newsletter() {
       border-[#cccccc] rounded-[5px] overflow-hidden'>
 
         <input type="text" 
-        placeholder="email" 
+        placeholder="email address" 
         className ="border-none pl-[20px] flex-[7] outline-none"
-         id="" />
+        />
 
         <button className='bg-[#4caf50] flex-1 h-[100%]'>
             <SendIcon className="text-white" />
