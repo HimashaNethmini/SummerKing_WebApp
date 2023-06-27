@@ -43,7 +43,7 @@ function Footer() {
             </div>
             
         </div>
-
+{/*contact information*/ }
         <div className='flex-1 flex flex-col p-2'>
             <div className='flex m-3'>
                 <LocationOnIconOutlined className="text-[#8a4af3]"/>

@@ -1,13 +1,16 @@
-import React from 'react'
-import Home from "../src/pages/Home.jsx";
+//import Cart from "./pages/Cart";
+import CategoryPage from "./pages/CategoryPage";
+import Home from "./pages/Home";
+//mport Login from "./pages/Login";
+import ProductPage from "./pages/ProductPage";
+//import Register from "./pages/Register";
 
-const App = () => {
-  return ( 
-    <div>
-      <Home/>
-      
+function App() {
+  return (
+    <div className="App">
+      <ProductPage/>
     </div>
-  )
+  );
 }
 
 export default App;
