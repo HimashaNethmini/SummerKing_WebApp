@@ -55,7 +55,7 @@ const ProductPage = () => {
             </div>
           </div>
 
-          <button className="text-white bg-[#8a4af3] rounded-md shadow-md mt-[30px] p-3">
+          <button className="btn">
             Add to Cart
           </button>
         </div>
