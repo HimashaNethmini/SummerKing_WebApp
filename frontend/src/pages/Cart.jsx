@@ -27,7 +27,7 @@ const Cart = () => {
           </button>
           <div className="flex underline text-lg hover:cursor-pointer mobile:m-5">
             <p>Items in your Cart: 3</p>
-            <p className="ml-5">Whishlist Items: 0</p>
+            <p className="ml-5">Wishlist Items: 0</p>
           </div>
           <button className="btn mt-0">Checkout Now</button>
         </div>

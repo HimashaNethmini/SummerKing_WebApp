@@ -8,13 +8,14 @@ function Newsletter() {
 
       <h1 className='text-[50px] font-bold'>NEWSLETTER</h1>
 
-      <h2 className='text-[30px] mt-2 '>
+      <h2 className='text-[20px] mt-2 '>
         Always get in touch with us for offers
       </h2>
 
       <div className='flex mt-[3rem] items-center 
       justify-between min-w-[30rem] min-h-[2rem] bg-white
-      border-[#cccccc] rounded-[5px] overflow-hidden'>
+      border-[#cccccc] rounded-[5px] overflow-hidden
+      mobile:min-w-[20rem]'>
 
         <input type="text" 
         placeholder="email address" 

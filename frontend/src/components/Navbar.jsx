@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="navbar h-[60px] shadow-md relative z-10">
         <div className="wrapper pl-[20px] pr-[20px] pt-[10px] pb-[10px]
-        flex justify-between items-center">
+        flex justify-between items-center mobile:pl-0 mobile:pr-0">
 
             <div className="left flex flex-1 items-center">
                 <div className="language cursor-pointer text-[16px] mobile:hidden">
